@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+@media only screen and (max-width: 1360px){}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 0 0;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+/* -------------------- Menu ----------------------- */
+
+
+.menu{
+
+    display: inline-block;
+    position: relative;
+   
+}
+
+#fotomuseo{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    filter: brightness(50%);
+
+}
+.submenu{
+    display: inline-flex;
+    position: relative;
+    background-color:rgb(53, 58, 64) ;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+
+}
+
+.logo{
+
+    width: 7rem;
+    float: left;
+    margin: 0 0 0 1.5rem;
+ 
+}
+
+.textomenu{
+
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    
+}
+
+.link_menu{
+
+    padding: 2rem 0 2rem 18rem ;
+}
+
+.link_menu > a{
+    
+    position: relative;
+    justify-content: right;
+    margin: .1rem 0 0 2rem;
+    color: rgb(171, 178, 182);
+
+}
+
+
+.link_menu > a:hover{
+
+    color: white;
+
+}
+
+.link_menu > a:visited{
+
+    color: white;
+}
+
+/* -------------- Presentación ----------------- */
+
+
+.presentacion{
+
+    position: absolute;
+    top: 300px;
+    left: 850px;
+    right: 100px;
+
+}
+
+.textopre{
+
+    color: rgb(244, 243, 241);
+    text-align: justify;
+    font-weight: 600;
+    
+
+}
+
+.textopre > h1{
+
+    text-align: right;
+}
+
+.botones1{
+
+    margin: 2rem 4rem;
+}
+
+#bt_blanco{
+    border: 1px solid white;
+    padding: .4rem .4rem;
+    border-radius: 5px;
+    color: white;
+
+    
+
+}
+
+#bt_comprar{
+    background-color: rgb(39, 168, 68) ;
+    border: 1px solid rgb(39, 168, 68);
+    font-weight: 550;
+    margin: 5rem 0 0 0;
+    padding: .4rem .4rem;
+    border-radius: 5px;
+    color: white;
+
+}
+
+
+/* -------------- Oradores  ----------------- */
+
+    .titulo2{
+
+        text-align: center;
+
+    }
+    .oradores {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .orador {
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        width: 25%;
+        margin: 1rem;
+    }
+
+    .orador img {
+        width: 100%;
+    }
+
+    .foto {
+        margin-bottom: 1rem;
+    }
+
+    .desc {
+        margin: 1rem;
+    }
+
+    .botones {
+        margin: 0 0 1rem 0;
+    }
+
+    .btnAmarillo {
+        background-color: rgb(254,193,7);
+        padding: .2rem .4rem;
+        border-radius: 5px;
+        font-size: .9rem;
+        font-weight: 600;
+        color: black;
+        margin: 0 .2rem 0 0;
+    }
+
+    .btnCeleste {
+        background-color: rgb(21,161,186);
+        padding: .2rem .4rem;
+        border-radius: 5px;
+        font-size: .9rem;
+        font-weight: 600;
+        color: white;
+
+    }
+
+    .btnGris{
+
+        background-color: rgb(109,119,128);
+        padding: .2rem .4rem;
+        border-radius: 5px;
+        font-size: .9rem;
+        font-weight: 600;
+        color: white;
+
+    }
+
+    .btnRojo{
+
+        background-color: rgb(220,53,70);
+        padding: .2rem .4rem;
+        border-radius: 5px;
+        font-size: .9rem;
+        font-weight: 600;
+        color: white;
+
+    }
+
+    .orador .titulo {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .orador .texto {
+        text-align: justify;
+        line-height: 1.4rem;
+    }
+
+/*---------- Foto octubre ----------*/
+
+.octubre{
+
+    background-color:rgb(53, 58, 64);
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+#fotoOctubre{
+
+    width: 40%;
+}
+
+.texto3{
+
+    color: white;
+    text-align: left;
+    font-size: .9rem;
+    padding: 0 1rem;
+
+}
+
+#btOctubre{
+    
+    border: 1px solid white;
+    padding: .4rem .4rem;
+    border-radius: 5px;
+    color: white;
+
+
+
+}
+
+
+/* Ser orador */
+
+#btVerde {
+    background-color: rgb(39, 168, 68);
+}
+
+
+
+/* Enlaces Finales */
+
+.EnlaceFinal {
+
+    background-color: rgb(28, 57, 71);
+    margin-top: 2rem;
+    padding: 2.5rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.EnlaceFinal > a{
+
+    color: white;
+    font-weight: 500;
+    padding-left: 3.5rem;
+    font-size: 1.2rem;
+
+
+}
+
+@media screen and (max-width: 880px) {
+    .logo {
+        width: 3rem;
+    }
+    .textomenu {
+        font-size: 1rem;
+    }
+    .link_menu {
+        display: none;
+    }
+    .presentacion {
+        position: static;
+        top: 100px;
+        left: 20px;
+        right: 20px;
+        font-size: 12px;
+        width: 90%;
+    }
+
+    .textopre {
+       
+        margin: 2rem;
+        color: black;
+    }
+
+    #bt_blanco{
+        border: 1px solid black;
+        padding: .4rem .4rem ;
+        border-radius: 5px;
+        color: black;
+    
+
+        }
+        
+    .oradores {
+      flex-direction: column;
+    }
+    .orador {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    .octubre {
+      flex-direction: column;
+    }
+    #fotoOctubre {
+      width: 100%;
+    }
+    .texto3 {
+      text-align: center;
+      padding: 1rem;
+    }
+    .EnlaceFinal {
+      padding: 2rem;
+      flex-direction: column;
+      font-size: 1rem;
+    }
+  }
